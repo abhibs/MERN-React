@@ -1,7 +1,9 @@
+import Demo from './Demo'
+
 const App = () => {
   return (
     <div>
-      <h1>Abhiram B S</h1>
+      <Demo />
     </div>
   )
 }

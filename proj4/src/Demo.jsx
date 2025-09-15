@@ -1,7 +1,7 @@
 const Demo = () => {
   return (
     <div>
-      <h2>Javalli Tudoor Thirthahalli Shimoga</h2>
+      <h2>Abhiram Javalli Tudoor Thirthahalli Shimoga</h2>
     </div>
   )
 }
