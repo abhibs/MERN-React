@@ -1,24 +1,21 @@
-import React from 'react';
+const LoginstatusBtn = (status)=>{
+    if(status){
+        return <button>Logout</button>
+    }
+    else{
+        return <button>Login</button>
+
+    }
+}
+
 
 const App = () => {
-    const status = true
-
-   if(status == true){
     return (
         <div>
-            <h1>Login Status</h1>
-            <button>Logout</button>
+            <h1>Login Status</h1>   
+            {LoginstatusBtn(true)}         
         </div>
-    )
-   }
-   else{
-    return (
-        <div>
-            <h1>Login Status</h1>
-            <button>Login</button>
-        </div>
-    )
-   }
+    );
 };
 
 export default App;
