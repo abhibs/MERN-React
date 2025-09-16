@@ -1,9 +1,12 @@
 import React from 'react';
 
 const App = () => {
+    function btnClick(){
+        alert("Clicked")
+    }
     return (
         <div>
-            <button onClick={()=>{alert("Clicked")}}>Click Me</button>
+            <button onClick={btnClick}>Click Me</button>
         </div>
     );
 };
