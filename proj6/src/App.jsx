@@ -1,11 +1,11 @@
-import { Fragment } from 'react'
-
 const App = () => {
   return (
-    <Fragment>
+    <div>
       <h1>Abhiram B S</h1>
       <h1>{2 + 4}</h1>
-    </Fragment>
+      <br />
+      <img src='https://abhibs.in/storage/about/1824290004760266.jpg' alt='' />
+    </div>
   )
 }
 
