@@ -11,6 +11,10 @@ const App = () => {
         {new Date().getHours()}:{new Date().getMinutes()}
       </h1>
       <p className='abhiram'>Abhiram</p>
+      <p style={{ color: 'red', background: 'blue' }}>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium eum
+        obcaecati ad iste veritatis eligendi.
+      </p>
       <button onClick={() => alert('Hello Abhiram!')}>Click Me</button>
     </div>
   )
