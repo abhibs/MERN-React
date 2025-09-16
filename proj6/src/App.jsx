@@ -11,6 +11,7 @@ const App = () => {
         {new Date().getHours()}:{new Date().getMinutes()}
       </h1>
       <p className='abhiram'>Abhiram</p>
+      <button onClick={() => alert('Hello Abhiram!')}>Click Me</button>
     </div>
   )
 }
