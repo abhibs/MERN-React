@@ -1,3 +1,5 @@
+import './App.css'
+
 const App = () => {
   return (
     <div>
@@ -8,6 +10,7 @@ const App = () => {
       <h1>
         {new Date().getHours()}:{new Date().getMinutes()}
       </h1>
+      <p className='abhiram'>Abhiram</p>
     </div>
   )
 }
