@@ -1,7 +1,7 @@
 import React from 'react';
 
 const App = () => {
-    function btnClick(){
+    const btnClick= ()=>{
         alert("Clicked")
     }
     return (
