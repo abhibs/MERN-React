@@ -8,14 +8,14 @@ import NotFoundPage from './pages/NotFoundPage'
 const App = () => {
   return (
     <div>
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
           <Route path='/' element={<HomePage />}></Route>
-          <Route path='/about' element={<AboutPage />}></Route>
+          <Route path='/about/:name/:address' element={<AboutPage />}></Route>
           <Route path='/contact' element={<ContactPage />}></Route>
           <Route path='*' element={<NotFoundPage />}></Route>
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   )
 }
