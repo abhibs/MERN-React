@@ -1,8 +1,9 @@
-import React from 'react'
+import Menu from '../components/Menu'
 
 const AboutPage = () => {
   return (
     <div>
+      <Menu />
       <h1>About Page</h1>
     </div>
   )
