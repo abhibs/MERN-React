@@ -3,8 +3,9 @@ const App = () => {
   let myHeadLIne = useRef()
 
   const change = () => {
-    myHeadLIne.current.innerText =
-      'Abhiram B S Javalli Tudoor Thirthahalli Shimoga'
+    // myHeadLIne.current.innerText =
+    //   'Abhiram B S Javalli Tudoor Thirthahalli Shimoga'
+    myHeadLIne.current.innerHTML = '<ul><li>Abhi</li><li>Ram</li></ul>'
   }
   return (
     <div>
