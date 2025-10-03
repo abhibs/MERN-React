@@ -15,7 +15,9 @@ const Menu = () => {
           <Link to='/about'>About</Link>
         </li> */}
         <li>
-          <NavLink to='/about'>About</NavLink>
+          <NavLink to='/about/Abhiram/Javalli Tudoor Thirthahalli'>
+            About
+          </NavLink>
         </li>
 
         {/* <li>
