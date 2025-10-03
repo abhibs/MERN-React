@@ -5,6 +5,8 @@ const App = () => {
 
   const change = () => {
     myImg.current.src = 'https://placehold.co/600x400/000000/ffffff'
+    myImg.current.setAttribute('height', '400px')
+    myImg.current.setAttribute('width', '400px')
   }
   return (
     <div>
