@@ -9,6 +9,10 @@ const App = () => {
     setList([...list])
   }
 
+  const removeItem = (index) => {
+    alert(index)
+  }
+
   return (
     <div>
       {/* <p>{list.length}</p> */}
@@ -16,12 +20,18 @@ const App = () => {
       <table>
         <tbody>
           {list.length !== 0 ? (
-            list.map((element) => {
+            list.map((element, index) => {
               return (
                 <tr>
                   <td>{element}</td>
                   <td>
-                    <button>Remove</button>
+                    <button
+                      onClick={() => {
+                        removeItem(index)
+                      }}
+                    >
+                      Remove
+                    </button>
                   </td>
                 </tr>
               )
