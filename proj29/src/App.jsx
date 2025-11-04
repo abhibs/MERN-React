@@ -10,7 +10,9 @@ const App = () => {
   }
 
   const removeItem = (index) => {
-    alert(index)
+    // alert(index)
+    list.splice(index, 1)
+    setList([...list])
   }
 
   return (
