@@ -11,7 +11,27 @@ const App = () => {
 
   return (
     <div>
-      <p>{list.length}</p>
+      {/* <p>{list.length}</p> */}
+
+      <table>
+        <tbody>
+          {list.length !== 0 ? (
+            list.map((element) => {
+              return (
+                <tr>
+                  <td>{element}</td>
+                  <td>
+                    <button>Remove</button>
+                  </td>
+                </tr>
+              )
+            })
+          ) : (
+            <tr></tr>
+          )}
+        </tbody>
+      </table>
+
       <input
         type='text'
         placeholder='Item'
